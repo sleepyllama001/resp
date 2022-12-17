@@ -4,19 +4,7 @@
   } */
 
   /*https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp*/
-.two{
-  background-color: black;
-}
-div{
-  color: white;
-}
-img{
-  max-width: 50%;
-  max-height: 50%;
-}
-a{
-  color: white;
-}
+
 #TopTitle {
 text-align: center;
 font-family: "Oswald";
