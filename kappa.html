@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS1300 HTML/CSS/JS Studio</title>
+    <!-- import javascript variables and functions -->
+    <!-- https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp -->
+    <!-- import CSS styles -->
+    <link href='https://fonts.googleapis.com/css?family=Gothic A1' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- <script src="scripts.js"></script> -->
+    
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    
+    <p id="TopTitle">
+        Commerce Urgent Care
+    </p>
+    <p id="TopSubtitle">
+        Walk-In Clinic
+    </p>
+
+    <!-- <div class="btn-group" id="bg">
+        <button class="topbuttons">Home</button>
+        <button class="topbuttons">Services</button>
+        <button class="topbuttons">Payments</button>
+        <button class="topbuttons">Insurance</button>
+        <button class="topbuttons">Location</button>
+        <button class="topbuttons">Special Offer</button>
+        <button class="topbuttons">Online Visitation</button>
+        <a href="javascript:void(0);" class="nav" nclick="myFunction()"><i class="fa fa-bars"></i></a>
+      </div> -->
+
+      <div class="btn-group" id="bg">
+        <a>Home</a>
+        <a>Services</a>
+        <a>Payments</a>
+        <a>Insurance</a>
+        <a>Location</a>
+        <a>Special Offer</a>
+        <a>Online Visitation</a>
+        <a href="javascript:void(0);" class="nav" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+      </div>
+
+      <div class="what-would-be-gallery"><img src="flag.jpeg" class="what-would-be-gallery1"></div>
+<!-- 
+    <div class="gallery">
+        <div class="slides">
+            <div class="numbers">1/4</div>
+                <img class="centering" src="flag.jpeg">
+            
+        </div>
+        <div class="slides">
+            <div class="numbers">2/4</div>
+            <img class="centering" src="studying.jpeg">
+        </div>
+    
+
+        <div class="slides">
+            <div class="numbers">3/4</div>
+            <img class="centering" src="tbtest.jpeg">
+        </div>
+    
+
+        <div class="slides">
+            <div class="numbers">4/4</div>
+            <img class="centering" src="insurance.jpeg">
+        </div>
+    
+
+    <a class="prevbutton" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="nextbutton" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="textbox">
+        <p class="cap">cap</p>
+    </div> -->
+    <!-- <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="flag.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="studying.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="tbtest.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="insurance.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+        
+      </div>
+</div> -->
+
+<!-- <div class="evenly">
+    <img class="spaced" src="doctors.jpeg">
+    <p class="captions">At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference. </p>
+    <img class="spaced" src="care.jpeg">
+    <p class="captions">At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference. </p>
+    <img class="spaced" src="equip.jpeg">
+    <p class="captions">At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference. </p>
+    <img class="spaced" src="clock.png">
+    <p class="captions">At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference. </p>
+    <img class="spaced" src="paper.png">
+    <p class="captions">At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference. </p>
+</div> -->
+<!-- <figure class="evenly">
+
+</figure> -->
+<!-- <div class="evenly">
+    <div class="item">
+        <figure>
+            <img class="spaced" src="doctors.jpeg">
+            <figcaption class="spaced">
+                At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.
+            </figcaption>
+        </figure>
+    </div>
+
+    <div class="item">
+        <figure>
+            <img class="spaced1" src="care.jpeg">
+            <figcaption class="spaced">
+                At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.
+            </figcaption>
+        </figure>
+    </div>
+
+    <div class="item">
+        <figure>
+            <img class="spaced1" src="equip.jpeg">
+            <figcaption class="spaced">
+                At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.
+            </figcaption>
+        </figure>
+    </div>
+
+    <div class="item">
+        <figure>
+            <img class="spaced1" src="clock.png">
+            <figcaption class="spaced">
+                At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.
+            </figcaption>
+        </figure>
+    </div>
+
+    <div class="item">
+        <figure>
+            <img class="spaced1" src="paper.png">
+            <figcaption class="spaced">
+                At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.
+            </figcaption>
+        </figure>
+    </div>
+
+</div> -->
+
+<div class="grid-container">
+    <div class="pictext">
+        <img class="pic" src="doctors.jpeg">
+        <p class="text"> At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.</p>
+    </div>
+
+    <div class="pictext">
+        <img class="pic" src="care.jpeg">
+        <p class="text"> At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.</p>
+    </div>
+
+    <div class="pictext">
+        <img class="pic" src="equip.jpeg">
+        <p class="text"> At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.</p>
+    </div>
+
+    <div class="pictext">
+        <img class="pic" src="clock.png">
+        <p class="text"> At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.</p>
+    </div>
+
+    <div class="pictext">
+        <img class="pic" src="paper.png">
+        <p class="text"> At Commerce Urgent Care, Commerce Michigan we treat you like a family member and we offer fast and quality medical care so you are feeling better in no time. So come on in and see the difference.</p>
+    </div>
+
+</div>
+
+<hr></hr>
+<!-- <div class="floater">
+<div class="contact_info">
+    <p>Contact Information</p>
+    <p>Commerce Urgent Care</p>
+    <p>Phone Number 248-242-6049​</p>
+    <p>Email: Commerce_urg@gmail.com</p>
+</div>
+<div class="contact_info">
+    <p>Walk-in Clinic. 2900 Union Lake Rd. Suite 110. Commerce Twp. 48382.</p>
+  
+    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.1656788396253!2d-83.44878678413494!3d42.59422822827279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824a49ecf401c4f%3A0x4c19363787d43070!2s2900%20Union%20Lake%20Rd%20%23%20110%2C%20Commerce%20Charter%20Twp%2C%20MI%2048382!5e0!3m2!1sen!2sus!4v1666713400229!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+</div>
+</div> -->
+<div class="contain2">
+    <div class="b1">
+        <p>Contact Information</p>
+    <p>Commerce Urgent Care</p>
+    <p>Phone Number 248-242-6049​</p>
+    <p>Email: Commerce_urg@gmail.com</p>
+    </div>
+    <div class="b2">
+        <p>Walk-in Clinic. 2900 Union Lake Rd. Suite 110. Commerce Twp. 48382.</p>
+    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.1656788396253!2d-83.44878678413494!3d42.59422822827279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824a49ecf401c4f%3A0x4c19363787d43070!2s2900%20Union%20Lake%20Rd%20%23%20110%2C%20Commerce%20Charter%20Twp%2C%20MI%2048382!5e0!3m2!1sen!2sus!4v1666713400229!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+
+
+ <script>
+function myFunction() {
+  var x = document.getElementById("bg");
+  if (x.className === "btn-group") {
+    x.className += " responsive";
+  } else {
+    x.className = "btn-group";
+  }
+}
+ </script>
+
+
+
+
+
+    
+  </body>
+  
+</html>
